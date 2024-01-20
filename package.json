@@ -6,6 +6,19 @@
   "scripts": {
     "script": "vite src/pages/index.html",
     "build": "vite build"
+  }, "vite": {
+    "build": {
+      "rollupOptions": {
+        "input": {
+          "page1": "",
+          "page2": ""
+        }
+      }
+    }
+  },  "pages": {
+    "index": "index.html",
+    "contact": "Contact.html",
+    "services": "Services.html"
   },
   "keywords": [],
   "author": "",
