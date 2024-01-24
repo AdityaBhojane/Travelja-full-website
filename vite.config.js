@@ -10,6 +10,8 @@ export default defineConfig({
         Contact: resolve(__dirname, 'src/Contact.html'),
         Services: resolve(__dirname, 'src/Services.html'),
         Discover: resolve(__dirname, 'src/Discover.html'),
+        News: resolve(__dirname, 'src/News.html'),
+        About: resolve(__dirname, 'src/About.html'),
         
       },
     },
